@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3333;
+}
+
+#container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-repeat: repeat-y;
+    background-image: url(./img/rectangle.png);
+    background-color: #F2F3F8;
+}
+
+.menu-icon {
+    margin-left: 20px;
+    margin-top: 39px;
+    display: inline-block;
+    cursor: pointer;
+    animation: move-menu-icon 1s 1 ease-out;
+}
+
+.search-icon {
+    padding-right: 20px;
+    padding-left: 250px;
+    cursor: pointer;
+    animation: move-search-icon 1s 1 ease-out;
+}
+
+.shooping-icon {
+    padding-right: 5.3px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 31px;
+    margin-top: 40px;
+    margin-left: 17px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-left: 17px;
+    font-weight: 400;
+}
+
+.food {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.rice-icon {
+    align-items: center;
+    cursor: pointer;
+    animation: move-rice-icon 1s 1 ease-out;
+}
+
+.view-more-icon {
+    padding-left: 18px;
+    cursor: pointer;
+}
+
+.hamburguer-icon {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.drinks-icon {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.dish01 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.dish02 {
+    padding-left: 15px;
+}
+
+.dish03 {
+    width: 72px;
+    height: 72px;
+    padding-top: 5px;
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 31px;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.recommended {
+    width: 335px;
+    height: 80px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 18px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding-top: 3px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+h6 {
+    padding-left: 10px;
+}
+
+h5 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.next-icon {
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+@keyframes move-menu-icon {
+    from {
+        transform: translate(-100%) rotate(0deg);
+    }
+}
+
+@keyframes move-search-icon {
+    from {
+        transform: translate(10%) rotate(0deg);
+    }
+}
+
+@keyframes move-rice-icon {
+    from {
+        transform: translate(-90%) rotate(100deg);
+    }
+}
